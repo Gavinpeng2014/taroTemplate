@@ -1,0 +1,7 @@
+/** 自定义taro-ui主题 */
+
+// $color-brand: #FFD100;
+$color-text-base: #303233; // 文字的基本色
+
+/* 引入 Taro UI 默认样式 */
+@import "~taro-ui/dist/style/index.scss";

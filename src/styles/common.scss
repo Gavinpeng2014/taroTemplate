@@ -1,0 +1,35 @@
+/** 全局注入通用样式 */
+
+
+// 固宽处理文本溢出
+@mixin ot {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    word-break: break-all;
+}
+
+// 处理文本溢出(多行)
+@mixin oth($line) {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: $line;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+}
+
+// 清除 Button 默认样式
+@mixin clearDefaultButton {
+    line-height: initial;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    background-color: initial;
+    &::after {
+        border: 0;
+        border-radius: 0;
+        background-color: initial;
+    }
+}

@@ -1,6 +1,6 @@
 import { observable } from 'mobx'
 
-const counterStore = observable({
+const testStore = observable({
   counter: 0,
   counterStore() {
     this.counter++
@@ -18,4 +18,4 @@ const counterStore = observable({
   }
 })
 
-export default counterStore
+export default testStore
