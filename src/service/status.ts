@@ -21,4 +21,4 @@ export const HTTP_STATUS = {
     SERVICE_UNAVAILABLE: 503,
     // (网关超时) 服务器作为网关或代理，但是没有及时从上游服务器收到请求
     GATEWAY_TIMEOUT: 504
-  }
+}
