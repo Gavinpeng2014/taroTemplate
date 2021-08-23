@@ -2,9 +2,9 @@
     "miniprogramRoot": "dist/",
     "projectname": "taroTemplate",
     "description": "taro项目模板",
-    "appid": "wxe70f24bbef4b49b7",
+    "appid": "wx86c53787eba8c5be",
     "setting": {
-        "urlCheck": true,
+        "urlCheck": false,
         "es6": false,
         "enhance": true,
         "postcss": false,

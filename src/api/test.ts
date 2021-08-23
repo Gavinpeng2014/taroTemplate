@@ -6,5 +6,5 @@ import request from '@/service/index'
  * @returns 
  */
 export const isTest = (url:string, data:any, contentType?:string, tips?:boolean) => {
-    request.post(url, data, contentType, tips)
+    return request.post(url, data, contentType, tips)
 }

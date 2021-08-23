@@ -18,6 +18,7 @@ const customInterceptor = (chain:any) => {
                     // 登录过期或未登录 需要与后端共同定义
                     if(result.code === 401) {
                         // 跳转登陆 清空用户信息等 处理
+                        Taro.navigateTo({ url: '/pages/login/index' })
                         return Promise.reject(result)
                     }
                 }

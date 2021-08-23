@@ -9,7 +9,9 @@ export default {
         // 首页
         'pages/index/index',
         // 模板
-        'pages/template/index'
+        'pages/template/index',
+        // 登陆 模板
+        'pages/login/index' 
     ],
     tabBar: {
         color: "#303233",
