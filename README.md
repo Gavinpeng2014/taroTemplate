@@ -154,5 +154,5 @@ Taro Ui https://taro-ui.jd.com
         }
         export default Index
     ```
-- 成长是生活的动力，加油吧`新生代码农`们！
+- 成长是生活的动力，加油吧`新生代农民工`们！
 - [模板源码地址](https://github.com/Gavinpeng2014/taroTemplate)
