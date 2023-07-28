@@ -44,11 +44,11 @@ class Request {
     }
     
     get(url:string, data:any, tips?:boolean) {
-        return this.baseOptions({ url, method:'GET', data, tips })
+        return this.baseOptions({ url, method: 'GET', data, tips })
     }
 
     post(url:string, data:any, contentType?:string, tips?:boolean) {
-        return this.baseOptions({ url, method:'GET', data, contentType, tips })
+        return this.baseOptions({ url, method: 'POST', data, contentType, tips })
     }
 }
 
